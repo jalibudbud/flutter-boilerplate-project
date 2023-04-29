@@ -71,3 +71,8 @@ build/
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 .flutter-plugins-dependencies
 ios/Flutter/flutter_export_environment.sh
+
+# Hide files based on https://github.com/jalibudbud/flutter-boilerplate-project#hide-generated-files
+**/*.inject.summary
+**/*.inject.dart
+**/*.g.dart
